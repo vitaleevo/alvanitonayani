@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Alvanito Nayani — Website Institucional
 
-## Getting Started
+Website institucional premium para a **Alvanito Nayani — Consultoria e Prestação de Serviços**, especializada em consultoria jurídica, contratação pública e assessoria empresarial.
 
-First, run the development server:
+🌐 **Talatona, Luanda, Angola**
+
+## Tecnologias
+
+- **Next.js 16** — App Router, Server Components, SSG
+- **TypeScript 5** — Strict mode
+- **TailwindCSS v4** — Design system com CSS variables
+- **shadcn/ui** — Componentes acessíveis
+- **Lucide Icons** — Ícones SVG
+
+## Páginas
+
+| Página | Rota |
+|---|---|
+| Home | `/` |
+| Sobre Nós | `/sobre-nos` |
+| Serviços | `/servicos` |
+| Contratação Pública | `/contratacao-publica` |
+| Blog | `/blog` |
+| Contacto | `/contacto` |
+
+## Começar
 
 ```bash
+# Instalar dependências
+npm install
+
+# Desenvolvimento
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Build produção
+npm run build
+
+# Iniciar produção
+npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Estrutura
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+├── app/                    # Next.js App Router (pages)
+├── components/
+│   ├── site/               # Componentes do site
+│   └── ui/                 # shadcn/ui primitives
+├── lib/
+│   ├── site-data.ts        # Dados centralizados
+│   └── utils.ts            # Utilities (cn)
+└── public/                 # Static assets
+```
 
-## Learn More
+## SEO
 
-To learn more about Next.js, take a look at the following resources:
+- Metadata por página (title, description, OG, Twitter)
+- JSON-LD Schema (`LegalService`)
+- Sitemap dinâmico (`/sitemap.xml`)
+- Robots.txt dinâmico
+- Canonical URLs
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Segurança
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Content Security Policy (CSP)
+- HSTS, X-Frame-Options, X-Content-Type-Options
+- Permissions-Policy
+- Cross-Origin policies
 
-## Deploy on Vercel
+## Licença
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Todos os direitos reservados — Alvanito Nayani.
