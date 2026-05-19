@@ -27,7 +27,7 @@ export const site = {
   phone: "+244 936 080 173",
   phoneAlt: "+244 936 079 317",
   whatsapp: "244936080173",
-  address: "Talatona, Luanda, Angola",
+  address: "Av. 4 de Fevereiro, Nº 23, Ingombota, Luanda",
   instagram: "https://www.instagram.com/",
   linkedin: "https://www.linkedin.com/",
 };

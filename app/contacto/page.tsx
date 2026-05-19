@@ -39,7 +39,7 @@ const contactItems = [
   {
     title: "Endereço",
     value: site.address,
-    href: "https://www.google.com/maps/search/?api=1&query=Luanda%2C%20Angola",
+    href: "https://www.google.com/maps/search/?api=1&query=Av.+4+de+Fevereiro,+Ingombota,+Luanda,+Angola",
     icon: MapPin,
   },
 ];
@@ -121,7 +121,7 @@ export default function ContactPage() {
               </div>
               <iframe
                 title="Mapa de localização em Luanda, Angola"
-                src="https://maps.google.com/maps?q=Luanda%2C%20Angola&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                src="https://maps.google.com/maps?q=Av.+4+de+Fevereiro,+Ingombota,+Luanda,+Angola&t=&z=15&ie=UTF8&iwloc=&output=embed"
                 className="relative h-[360px] w-full border-0 opacity-70 mix-blend-multiply"
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
